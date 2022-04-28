@@ -7,10 +7,25 @@ This is a web app that uses the seam carving algorithm to resize an uploaded ima
 
 | ![](Test_file_horse/400x250.png) | ![](Test_file_horse/200x200.jpg) |
 | ------ | ------ |
-| Original: 400x250 | Resized: 200x200 | |
+| Original: 400x250 | Resized: 200x200 | 
 
 _**Note:** The program only implements shrinking the dimensions of an image._
 
+**How to use the app:**
+
+
+
+| Home page |  
+| ------ | 
+| ![](screenshots/1.png) |  
+
+| After uploading an image |
+| ------ |
+|![](screenshots/2.png) |
+
+| Downloading a resized image | 
+|  ------ |
+| ![](screenshots/3.png) |
 
 
 Reference
