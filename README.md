@@ -4,7 +4,7 @@ Link to the app: https://share.streamlit.io/rtorii/seam-carving/main/main.py
 
 **Description:**
 
-This is a web app that uses the seam carving algorithm to resize an uploaded image using seam carving. The app is deployed using Streamlit Share. Seam Carving works by finding and removing seams in the image that pass through the least important pixels. Here is an example.
+This is a web app which uses the seam carving algorithm to resize an uploaded image using seam carving. The app is deployed using Streamlit Share. Seam Carving works by finding and removing seams in the image that pass through the least important pixels. Here is an example.
 
 
 | ![](Test_file_horse/400x250.png) | ![](Test_file_horse/200x200.jpg) |
@@ -33,8 +33,8 @@ The seam carving algorithm is to repeatedly execute the procedure for removing s
 1. Upload an image to resize.
 2. Type in the desired width and height of the resized image. They should be no greater than the original image.
 3. Choose the file format (jpg or png) of the resized image.
-4. Press "Resize" button for the program to start resizing the image.
-5. Download button will appear after the process is complete. Press the button to download the resized image
+4. Press the "Resize" button for the program to start resizing the image.
+5. The download button will appear after the process is complete. Press the button to download the resized image
 
 | Home page |  
 | ------ | 
