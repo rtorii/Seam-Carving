@@ -34,7 +34,7 @@ The seam carving algorithm is to repeatedly execute the procedure for removing s
 2. Type in the desired width and height of the resized image. They should be no greater than the original image.
 3. Choose the file format (jpg or png) of the resized image.
 4. Press the "Resize" button for the program to start resizing the image.
-5. The download button will appear after the process is complete. Press the button to download the resized image
+5. The download button will appear after the process is complete. Press the button to download the resized image.
 
 | Home page |  
 | ------ | 
