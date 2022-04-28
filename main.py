@@ -23,10 +23,10 @@ def uploaded(original_img):
     genre = st.radio("resized image file format",('jpg', 'png'))
     button_pressed = st.button('Resize')
     if height.isdigit() and width.isdigit():
-        if o_height < int(height):
-            st.write('<span style="color:red;">Error: Please set the height to be no greater than the original height ('+str(o_height)+').</span>',unsafe_allow_html=True)
-        elif o_width < int(width):
+        if o_width < int(width):
             st.write('<span style="color:red;">Error: Please set the width to be no greater than the original width ('+str(o_width)+').</span>',unsafe_allow_html=True)
+        elif o_height < int(height):
+            st.write('<span style="color:red;">Error: Please set the height to be no greater than the original height ('+str(o_height)+').</span>',unsafe_allow_html=True)
         elif button_pressed:
             placeholder = st.empty()
             placeholder.text(" Resizing... \nline This could take a couple of minutes (or more).")
