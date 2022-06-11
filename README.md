@@ -1,5 +1,7 @@
 # Seam Carving (Python: Streamlit)
 
+日本語の説明: https://github.com/rtorii/Seam-Carving/blob/main/README_2.md
+
 Link to the app: https://share.streamlit.io/rtorii/seam-carving/main/main.py
 
 **Description:**
